@@ -1,0 +1,107 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-section, .calendar-section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+textarea, input[type="date"], input[type="time"], select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.calendar {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendar th {
+    background-color: #007bff;
+    color: white;
+}
+/* styles.css */
+.calendar .message-day {
+    background-color: #e0f7fa;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.message-preview {
+    font-size: 12px;
+    color: #007bff;
+}
+
+/* styles.css */
+
+/* Apply Poppins font to the whole body */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Specific styling for highlighted dates */
+.message-day {
+    background-color: #e0f7fa;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600; /* Use a bolder weight to highlight */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style for message previews */
+.message-preview {
+    font-size: 12px;
+    color: #007bff;
+    font-family: 'Poppins', sans-serif;
+}
+

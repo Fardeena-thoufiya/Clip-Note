@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipnote</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ClipNote</h1>
+
+        <!-- Message Input Form -->
+        <div class="form-section">
+            <h2>Schedule a New Message</h2>
+            <form id="messageForm">
+                <label for="messageType">Message Type:</label>
+                <select id="messageType">
+                    <option value="text">Text</option>
+                    <option value="audio">Audio</option>
+                    <option value="video">Video</option>
+                </select>
+                
+                <label for="messageContent">Message Content:</label>
+                <textarea id="messageContent" placeholder="Enter your message here..." required></textarea>
+
+                <label for="messageDate">Date:</label>
+                <input type="date" id="messageDate" required>
+
+                <label for="messageTime">Time:</label>
+                <input type="time" id="messageTime" required>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <!-- Calendar Display -->
+        <div class="calendar-section">
+            <h2>Messages Calendar</h2>
+            <div id="calendar"></div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipnote</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
